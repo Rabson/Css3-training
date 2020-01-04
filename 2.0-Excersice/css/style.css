@@ -1,0 +1,230 @@
+/* h3 {
+    color: green;
+} */
+
+/* for every (reset) */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    /* color */
+    background-color: #f4f4f4;
+    color: #555555;
+    /* font */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    /*or 400; */
+
+    /* same as above */
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    /* or 3px */
+
+    margin: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: auto
+}
+
+.button {
+    background-color: #333333;
+    color: #fff;
+    padding: 10px 3p;
+    border: none;
+}
+
+button:hover {
+    background-color: red;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+/* a:visited {
+    color: black;
+} */
+
+
+.box-1 {
+    background-color: #333333;
+    color: #fff;
+
+    /*----- border -----*/
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    /* same as above */
+    /* border: 5px red solid; */
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+
+    /*-----  padding -----*/
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    /* same as above */
+    padding: 20px;
+
+
+    /*-----  margin ----- */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    /* same as above */
+    margin: 5px 10px 5px 10px;
+    /* clockwise  top right bottom left */
+
+    /* same as above */
+    margin: 5px 10px;
+
+}
+
+
+.box-1 h1{
+    /* fonts */
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0,2em;
+    word-wrap: 1em;   
+}
+
+.box-2 {
+    border: 3px dotted #cccccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+
+.categories {
+    border: 1px solid #cccccc; 
+    padding: 10px; 
+    border-radius: 15px;  
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+    padding: 0;
+    padding-left: 10px;
+    /* list-style: square; */
+    list-style: none;
+}
+
+.categories li {
+    border-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    /* list-style-image: url( ); */
+}
+
+.my-from {
+    padding: 20px;
+}
+
+.from-group {
+    padding-bottom: 15px;
+}
+.my-from label {
+    display: block;
+}
+
+.my-from input[type="text"] , .my-fromt textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main-block {
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.sidebar{ 
+    float: right;
+    background-color: #333333;
+    width: 30%;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box {
+    width: 800px;
+    height:500px;
+    border: 1px solid #000;
+    margin-bottom: 30px;
+    position: relative;
+    background-image: url('../bg.jpg');
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.p-box h2{ 
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me {
+    position: fixed;
+    top:400px
+}
+
+
+.my-list li:first-child{
+    background: red;
+}
+
+.my-list li:last-child{
+    background: blue;
+}
+
+.my-list li:nth-child(5) {
+    background: yellow;
+}
+.my-list li:nth-child(even) {
+    background: green;
+}
